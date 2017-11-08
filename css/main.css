@@ -1,0 +1,314 @@
+* {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+.js-hide {
+	display: none;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'proxima-nova', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-color: #a67c52;
+}
+
+main {
+	margin: 0;
+}
+
+header {
+	width: 90%;
+	margin: 1.5rem auto;
+	background-color: #fff;
+}
+
+header h1 {
+	color: #a67c52;
+	font-size: 3rem;
+	font-weight: 1000;
+	text-align: center;
+	margin: 0;
+}
+
+header h1 span {
+	font-weight: 100;
+}
+
+.location {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.locleft {
+	float: left;
+	width: 85%;
+}
+
+nav .open-settings {
+	position: absolute;
+	right: 5%;
+	top: 6.6rem;
+}
+
+.settings {
+	width: 80%;
+	margin: 0 10%;
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav a:hover {
+	color: rgba(255, 255, 255, .35);
+}
+
+input {
+	color: #6C5135;
+	border: none;
+	height: 3rem;
+	width: 85%;
+	float:left;
+	font-size: 2rem;
+	padding-left: 1rem;
+}
+
+button {
+	width: 15%;
+	height: 3rem;
+	float: left;
+	background-color: #6C5135; 
+	border: none;
+	margin: 0;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, .35);
+}
+
+button:hover .fa-arrow-right {
+	color: #6C5135;
+}
+button .fa-arrow-right {
+	font-size: 1.5rem;
+}
+
+.settings p {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 1000;
+}
+
+.close-settings {
+	position: fixed;
+	right: 10%;
+	top: 3rem;
+	font-size: 2rem;
+}
+
+.locright {
+	float:left;
+	width:15%;
+}
+
+.locright a {
+	width: 100%;
+	color: #fff;
+}
+
+.locright a:hover {
+	color: rgba(255, 255, 255, .35);
+}
+
+.fa-search {
+	width:100%;
+	text-align: right;
+	font-size: 1.5rem;
+}
+
+.location h2 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.location p {
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, .35);
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.shitmometer {
+	width: 90%;
+	margin: 2rem auto;
+	overflow: hidden;
+}
+
+.shitmometer img {
+	width: 15%;
+	height: 10rem;
+	float: left;
+	margin-top: .5rem;
+}
+
+.shitmometer div {
+	width: 85%;
+	float: left;
+}
+
+.shitmometer h3 {
+	font-size: 2.5rem;
+	font-weight: 1000;
+	text-align: center;
+	margin: 0;
+}
+
+.shitmometer p {
+	font-size: 8rem;
+	font-weight: 1000;
+	line-height: 8rem;
+	text-align: center;
+	margin: 0;
+}
+
+.moreshit {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.conditions {
+	width: 60%;
+	float: left;
+}
+
+.moreshit h4{
+	font-size: 1.3rem;
+	/*text-align: center;*/
+	margin: 0 0 0 .8rem;
+}
+
+.conditions h4 {
+	text-align: center;
+	margin: 0;
+}
+
+.conditions .icon {
+	font-size: 7rem;
+}
+
+.moreshit .conditions p {
+	text-align: center;
+	margin: 0;
+}
+
+.wind {
+	width: 40%;
+	float: left;
+}
+
+.windspeed {
+	font-size: 5rem;
+	font-weight: 700;
+	margin: 0;
+	float: left;
+}
+
+.windblock {
+	float: left;
+	margin-left: .3rem;
+	width: 30%;
+}
+
+.windunit , .winddirection {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	line-height: 1rem;
+}
+
+.showmore {
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+}
+
+.showmore p {
+	margin: 0;
+}
+
+.showmore a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.showmore a:hover {
+	color: rgba(255, 255, 255, .35);
+}
+}
+
+.fa-chevron-down {
+	font-size: 1.5rem;
+}
+
+
+
+.week {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+}
+
+.boxes {
+	height: 16.666%;
+	width: 100%;
+	margin: 0;
+}
+
+.highlight {
+	background-color: rgba(255, 255, 255, .35);
+}
+
+.boxes p {
+	width: 33.333%;
+	float: left;
+	text-align: center;
+	margin: 0;
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.boxes .icon {
+	font-size: 5rem;
+	transform: translateY(5%);
+}
+
+.error {
+	width: 70%;
+	margin: 0 0 0 5%;
+	font-size: 1.5rem;
+	font-weight: 700;
+	position: fixed;
+	top: 6.3rem;
+}
