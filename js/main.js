@@ -72,7 +72,7 @@ function updateSettings(){
       html =  '<main>';
 
         html += '<header>';
-          html += '<h1><span>THE&nbsp;</span>SHITCAST</h1>'
+          html += '<h1><span>THE&nbsp;</span>SH*TCAST</h1>'
         html += '</header>';
 
         html += '<section class="location">';
