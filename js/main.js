@@ -72,7 +72,7 @@ function updateSettings(){
       html =  '<main>';
 
         html += '<header>';
-          html += '<h1><span>THE&nbsp;</span>SH*TCAST</h1>'
+          html += '<h1><span>THE&nbsp;</span>S&#35;*TCAST</h1>'
         html += '</header>';
 
         html += '<section class="location">';
@@ -90,7 +90,7 @@ function updateSettings(){
           html += '<img src="img/thermometer.svg">'
 
           html += '<div>'
-            html += '<h3>SH*T-MOMETER</h3>'
+            html += '<h3>S&#35;*T-MOMETER</h3>'
             html += '<p>' +weather.temp+ ' ' +weather.units.temp+ '</p>'
           html += '</div>';
 
@@ -100,12 +100,12 @@ function updateSettings(){
         html += '<section class="moreshit">'
 
           html += '<div class="conditions">';
-            html += '<h4>SH*T-CONDITIONS</h4>';
+            html += '<h4>S&#35;*T-CONDITIONS</h4>';
             html += '<p><i class="icon icon-' +weather.code+ '"></i></p>';
           html += '</div>';
 
           html += '<div class="wind">';
-            html += '<h4>SH*TWINDS</h4>';
+            html += '<h4>S&#35;*TWINDS</h4>';
             html += '<p class="windspeed">' +weather.wind.speed+ '</p>';
 
             html += '<div class="windblock">';
@@ -119,7 +119,7 @@ function updateSettings(){
 
         html += '<div class="showmore">';
           html += '<a href="#week">';
-          html += '<p>IMPENDING SH*T</p>';
+          html += '<p>IMPENDING S&#35;*T</p>';
           html += '<p><i class="fa fa-chevron-down" aria-hidden="true"></i></p>';
           html += '</a>';
         html += '</div>';

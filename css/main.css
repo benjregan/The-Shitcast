@@ -172,7 +172,7 @@ button .fa-arrow-right {
 }
 
 .shitmometer h3 {
-	font-size: 2.5rem;
+	font-size: 2.35rem;
 	font-weight: 1000;
 	text-align: center;
 	margin: 0;
@@ -311,4 +311,12 @@ button .fa-arrow-right {
 	font-weight: 700;
 	position: fixed;
 	top: 6.3rem;
+}
+
+@media only screen and (min-width: 30.5rem) {
+
+.shitmometer h3 {
+	font-size: 3rem;
+}
+
 }
